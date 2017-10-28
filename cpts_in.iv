@@ -1,0 +1,57 @@
+Separator {
+	LightModel{
+		model PHONG
+	}
+	Material{
+		diffuseColor 1.0 1.0 1.0
+	}
+	Transform{
+		translation 0.0 0.0 0.0
+	}
+	Sphere{
+		radius 0.1
+	}
+}
+Separator {
+	LightModel{
+		model PHONG
+	}
+	Material{
+		diffuseColor 1.0 1.0 1.0
+	}
+	Transform{
+		translation 5.0 0.0 0.0
+	}
+	Sphere{
+		radius 0.1
+	}
+}
+Separator {
+	LightModel{
+		model BASE_COLOR
+	}
+	Material{
+		diffuseColor 1.0 0.2 0.2
+	}
+	Coordinate3{
+		point[
+			0.0 0.0 0.0,
+			0.38284199999999996 0.0 0.3276,
+			0.8055359999999999 0.0 0.5904,
+			1.259334 0.0 0.7884,
+			1.7354879999999997 0.0 0.9216,
+			2.22525 0.0 0.99,
+			2.7198719999999996 0.0 0.9936,
+			3.2106059999999994 0.0 0.9323999999999999,
+			3.6887039999999987 0.0 0.8064000000000004,
+			4.145417999999999 0.0 0.6156000000000006,
+			4.571999999999999 0.0 0.36000000000000076,
+			4.959701999999999 0.0 0.03960000000000097,
+			5.0 0.0 0.0,
+		]
+	}
+	IndexedLineSet{
+		coordIndex[
+			0,1,2,3,4,5,6,7,8,9,10,11,12,]
+	}
+}
